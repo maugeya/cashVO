@@ -4,6 +4,7 @@ body {
   background-color: #F6F1EB;
 }
 
+/*nav stylings*/
 nav {
   font-family: 'Raleway', sans-serif;
   color: #304352;
@@ -13,11 +14,40 @@ nav {
 }
 
 
+#homeLink {
+  letter-spacing: 1.2px;
+  font-weight: bolder;
+  color: #9AA1B3;
+}
+#brandLink {
+  letter-spacing: 1.2px;
+  font-weight: bolder;
+  color: #9AA1B3;
+}
+#aboutLink {
+  letter-spacing: 1.2px;
+  font-weight: bolder;
+  color: #9AA1B3;
+}
+#listenLink {
+  letter-spacing: 1.2px;
+  font-weight: bolder;
+  color: #9AA1B3;
+}
+#testLink {
+  letter-spacing: 1.2px;
+  font-weight: bolder;
+  color: #9AA1B3;
+}
+#contactLink {
+  letter-spacing: 1.2px;
+  font-weight: bolder;
+  color: #9AA1B3;
+}
+
 .nav-link {
   text-transform: uppercase;
-  letter-spacing: 1.2px;
-  font-weight: bold;
-  color: #304352;
+
   display: inline-block;
 }
 
@@ -39,7 +69,30 @@ nav {
     transition: width .5s;
 }
 
+
+/*general section stylings*/
 section {
   min-height: 100vh;
-  padding-top: 100px;
+}
+
+/*parallax */
+
+.parallax {
+  background-image:url("../assets/mic2.jpg");
+  filter: brightness(0.7);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }

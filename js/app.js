@@ -22,8 +22,10 @@ $(() => {
 
       if(scrollTop >= viewportHeight) {
         $('nav').addClass('translucent');
+        // $('nav').removeClass('topbar');
       } else {
         $('nav').removeClass('translucent');
+        // $('nav').addClass('topbar');
       }
     }
   });
