@@ -6,17 +6,23 @@ body {
 
 nav {
   font-family: 'Raleway', sans-serif;
-  background-color: #F6F1EB;
+  color: #304352;
 }
 .navbar-brand {
   color: #304352;
 }
+
+
 .nav-link {
   text-transform: uppercase;
   letter-spacing: 1.2px;
   font-weight: bold;
   color: #304352;
   display: inline-block;
+}
+
+.translucent {
+  opacity: 0.5;
 }
 
 .nav-link::after {
@@ -31,4 +37,9 @@ nav {
 .nav-link:hover::after {
     width: 100%;
     transition: width .5s;
+}
+
+section {
+  min-height: 100vh;
+  padding-top: 100px;
 }
