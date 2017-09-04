@@ -1,3 +1,34 @@
+
+
 body {
-  background-color: crimson;
+  background-color: #F6F1EB;
+}
+
+nav {
+  font-family: 'Raleway', sans-serif;
+  background-color: #F6F1EB;
+}
+.navbar-brand {
+  color: #304352;
+}
+.nav-link {
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+  color: #304352;
+  display: inline-block;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #304352;
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    transition: width .5s;
 }
