@@ -1,7 +1,12 @@
 
-
+/*general stylings*/
 body {
   background-color: #F6F1EB;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1.1px;
 }
 
 /*nav stylings*/
@@ -12,6 +17,7 @@ nav {
 .navbar-brand {
   color: #304352;
 }
+
 
 
 #homeLink {
@@ -99,4 +105,22 @@ section {
 
 .quotes {
   display: none;
+  color: #F6F1EB;
+  font-size: 20px;
+}
+
+#quoteAnimate {
+  margin-top: 100px;
+}
+
+#nameTitle {
+  color: #F6F1EB;
+  font-family: 'Raleway', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#summaryTitle {
+  color: #9AA1B3;
+  font-family: 'Raleway', sans-serif;
 }
