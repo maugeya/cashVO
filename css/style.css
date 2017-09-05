@@ -68,17 +68,17 @@ nav {
 }
 
 .nav-link::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #304352;
-    transition: width .3s;
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #304352;
+  transition: width .3s;
 }
 
 .nav-link:hover::after {
-    width: 100%;
-    transition: width .5s;
+  width: 100%;
+  transition: width .5s;
 }
 
 
@@ -90,7 +90,7 @@ section {
 /*parallax */
 
 .parallax {
-  background-image:url("../assets/mic2.jpg");
+  background-image:url("../assets/images/mic2.jpg");
   filter: brightness(0.7);
   min-height: 100vh;
   background-repeat: no-repeat;
@@ -132,7 +132,7 @@ section {
 }
 
 /*testimonials section*/
-#testimonials {
+section {
   margin-top: 50px;
   text-align: center;
 }
@@ -161,7 +161,7 @@ section {
   min-height: 70vh;
 }
 .parallaxTwo {
-  background-image:url("../assets/rachel2.jpg");
+  background-image:url("../assets/images/rachel2.jpg");
   filter: brightness(0.7);
   min-height: 70vh;
   background-repeat: no-repeat;
@@ -170,4 +170,35 @@ section {
   background-attachment: fixed;
   position: relative;
   text-align: center;
+}
+
+/*listen section*/
+
+audio:hover, audio:focus, audio:active
+{
+  -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+
+audio
+{
+  -webkit-transition:all 0.5s linear;
+  -moz-transition:all 0.5s linear;
+  -o-transition:all 0.5s linear;
+  transition:all 0.5s linear;
+  -moz-box-shadow: 2px 2px 4px 0px #006773;
+  -webkit-box-shadow:  2px 2px 4px 0px #006773;
+  box-shadow: 2px 2px 4px 0px #006773;
+  -moz-border-radius:7px 7px 7px 7px ;
+  -webkit-border-radius:7px 7px 7px 7px ;
+  border-radius:7px 7px 7px 7px ;
+}
+
+.audioTwo {
+  margin-top: 50px;
 }
