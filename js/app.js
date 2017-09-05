@@ -1,6 +1,8 @@
 $(() => {
   console.log('js loaded');
 
+
+
   $('.nav-link').on('click', scrollToSection);
   $('.navbar-brand').on('click', scrollToSection);
 
@@ -8,7 +10,7 @@ $(() => {
 
     const section = $(this).attr('href');
     $('body', 'html').animate({
-      scrollTop: $(section).offset().top
+      scrollTop: $(section).offset().top - 40
     }, 1300);
   }
 
@@ -47,6 +49,30 @@ $(() => {
     showNextQuote();
 
   })();
+
+  $(function() {
+    var imgHeight = '';
+
+    // Define a resize function
+    function setImgHeight() {
+      imgHeight = $('.carousel .carousel-item.active img').height();
+      $('.carousel-img').height(imgHeight);
+      console.log(imgHeight);
+    }
+
+    // Initialize the height
+    // setTimeout to wait until the image is loaded
+    setTimeout( function(){
+      setImgHeight();
+    }, 1000 );
+
+    // Recalculate the height if the screen is resized
+    $( window ).resize(function() {
+      setImgHeight();
+    });
+  });
+
+    $('.carousel').carousel();
 
 
 

@@ -9,6 +9,12 @@ p {
   letter-spacing: 1.1px;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
 /*nav stylings*/
 nav {
   font-family: 'Raleway', sans-serif;
@@ -123,4 +129,45 @@ section {
 #summaryTitle {
   color: #9AA1B3;
   font-family: 'Raleway', sans-serif;
+}
+
+/*testimonials section*/
+#testimonials {
+  margin-top: 50px;
+  text-align: center;
+}
+.testimonials {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.testimonial-content {
+  font-style: italic;
+  color: #304352;
+  font-size: 17px;
+}
+
+
+
+.sectionTitle {
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: #304352;
+}
+
+/*second parallax*/
+
+#image {
+  min-height: 70vh;
+}
+.parallaxTwo {
+  background-image:url("../assets/rachel2.jpg");
+  filter: brightness(0.7);
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
 }
