@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>cashVO</title>
+  <script src="https://use.fontawesome.com/8045ce2fdd.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -61,7 +62,10 @@
           <p class="quotes">I am a London based artist with a home studio. I'm also a member of the Voice Over Network.</p>
           <p class="quotes">My natural voice is a light-hearted clear RP with a smidge of class. Most suited for Corporate, Commerical or Narration work.</p>
           <p class="quotes">When I am not behind the mic, I am making puppets - yes puppets, for children's theatre -  my animation reel will be coming soon.</p>
-
+        </div>
+        <div class="microphone">
+          <a class="icon" href="#about"><i class="fa fa-microphone fa-3x" aria-hidden="true"></i></a>
+          <p>Learn more</p>
         </div>
 
       </div>
@@ -86,79 +90,93 @@
                 </audio>
               </div>
             </div>
-        <div class="row audioTwo">
-          <div class="col-md-5 offset-md-1">
-            <p>Narrative One</p>
-            <audio controls>
-              <source src="./assets/audio/narrative1.mp3" type="audio/mp3">
-              </audio>
-            </div>
-            <div class="col-md-5">
-              <p>Intu Merry Hill</p>
-              <audio controls>
-                <source src="./assets/audio/intu.mp3" type="audio/mp3">
-                </audio>
-              </div>
-            </div>
-          </section>
-          <section id="testimonials">
-            <h1 class="sectionTitle">Clients</h1>
-            <div class="row carousel">
-              <div class="col-md-2 offset-md-5">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                      <img class="carouselImg d-block img-fluid" src="./assets/images/peugeot.jpeg" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="carouselImg d-block img-fluid" src="./assets/images/radioworks.jpeg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="carouselImg d-block img-fluid" src="./assets/images/maplestreet-creative.png" alt="Third slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="carouselImg d-block img-fluid" src="./assets/images/stack-advertising.jpeg" alt="Third slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="carouselImg d-block img-fluid" src="./assets/images/UBS.png" alt="Third slide">
-                    </div>
+            <div class="row audioTwo">
+              <div class="col-md-5 offset-md-1">
+                <p>Narrative One</p>
+                <audio controls>
+                  <source src="./assets/audio/narrative1.mp3" type="audio/mp3">
+                  </audio>
+                </div>
+                <div class="col-md-5">
+                  <p>Intu Merry Hill</p>
+                  <audio controls>
+                    <source src="./assets/audio/intu.mp3" type="audio/mp3">
+                    </audio>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="row testimonials">
-              <div class="col-md-6">
-                <div class="sa-testimonial">
-                  <p class="testimonial-content">"Having worked with Rachel on a number of projects, I feel confident in saying that she is professional, adaptable, conscientious, smart and a thoroughly nice person to work with (which in my opinion is underrated in this businesss). Rachel was always prepared and rehearsed and quickly understoon what we were looking for. She would happily help out if dialogue wasn't working and her suggestions were always thoughtful and never pushy. I would work with Rachel again in a heartbeat and would advise others to do the same"</p>
-                  <p><b>Iain Hunter - Executive Creative Director at Stack Advertising</b></p>
+                <div class="row video">
+                  <div class="col-md-6">
+                    <video id="videoOne" width="500" height="auto" controls>
+                      <source src="./assets/video/peugeot1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class="col-md-6">
+                      <video id="videoTwo" width="500" height="auto" controls>
+                        <source src="./assets/video/peugeot2.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                      </div>
+                    </div>
+                  </section>
+                  <section id="testimonials">
+                    <h1 class="sectionTitle">Clients</h1>
+                    <div class="row carousel">
+                      <div class="col-md-2 offset-md-5">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                              <img class="carouselImg d-block img-fluid" src="./assets/images/peugeot.jpeg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="carouselImg d-block img-fluid" src="./assets/images/radioworks.jpeg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="carouselImg d-block img-fluid" src="./assets/images/maplestreet-creative.png" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="carouselImg d-block img-fluid" src="./assets/images/stack-advertising.jpeg" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="carouselImg d-block img-fluid" src="./assets/images/UBS.png" alt="Third slide">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row testimonials">
+                      <div class="col-md-6">
+                        <div class="sa-testimonial">
+                          <p class="testimonial-content">"Having worked with Rachel on a number of projects, I feel confident in saying that she is professional, adaptable, conscientious, smart and a thoroughly nice person to work with (which in my opinion is underrated in this businesss). Rachel was always prepared and rehearsed and quickly understoon what we were looking for. She would happily help out if dialogue wasn't working and her suggestions were always thoughtful and never pushy. I would work with Rachel again in a heartbeat and would advise others to do the same"</p>
+                          <p><b>Iain Hunter - Executive Creative Director at Stack Advertising</b></p>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="maple-street-testimonial">
+                          <p class="testimonial-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius mauris a justo efficitur suscipit. Mauris ut nisl nec nisi gravida tempor sit amet et lorem. Quisque dapibus, est ac ullamcorper efficitur, nulla tortor rutrum turpis, sed tristique tortor magna non leo. Donec elementum tellus ex, et consequat massa finibus sit amet. Vivamus facilisis lectus lacinia dolor hendrerit accumsan. Nulla ut nunc est. Praesent ullamcorper mollis accumsan. Proin mauris velit, vulputate et turpis a, vestibulum vehicula nibh. Fusce mi risus, commodo ac lorem vel, rutrum auctor metus. </p>
+                          <p><b>Maple Street Advertising</b></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row testimonials">
+                      <div class="col-md-6 offset-md-3">
+                        <div class="peugeot-testimonial">
+                          <p class="testimonial-content">"Rachel's delivery was synonamous with the brands pillars - sophisticated, clear, war and intelligent"</p>
+                          <p><b>Peugeot</b></p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="maple-street-testimonial">
-                  <p class="testimonial-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius mauris a justo efficitur suscipit. Mauris ut nisl nec nisi gravida tempor sit amet et lorem. Quisque dapibus, est ac ullamcorper efficitur, nulla tortor rutrum turpis, sed tristique tortor magna non leo. Donec elementum tellus ex, et consequat massa finibus sit amet. Vivamus facilisis lectus lacinia dolor hendrerit accumsan. Nulla ut nunc est. Praesent ullamcorper mollis accumsan. Proin mauris velit, vulputate et turpis a, vestibulum vehicula nibh. Fusce mi risus, commodo ac lorem vel, rutrum auctor metus. </p>
-                  <p><b>Maple Street Advertising</b></p>
-                </div>
-              </div>
-            </div>
-            <div class="row testimonials">
-              <div class="col-md-6 offset-md-3">
-                <div class="peugeot-testimonial">
-                  <p class="testimonial-content">"Rachel's delivery was synonamous with the brands pillars - sophisticated, clear, war and intelligent"</p>
-                  <p><b>Peugeot</b></p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-        <section id="image">
-          <div class="parallaxTwo"></div>
-        </section>
-        <section id="contact">
-          <h1>contact</h1>
-        </section>
+                <section id="image">
+                  <div class="parallaxTwo"></div>
+                </section>
+                <section id="contact">
+                  <h1>contact</h1>
+                </section>
 
 
-      </main>
+              </main>
 
-    </body>
-    </html>
+            </body>
+            </html>

@@ -5,6 +5,7 @@ $(() => {
 
   $('.nav-link').on('click', scrollToSection);
   $('.navbar-brand').on('click', scrollToSection);
+  $('.icon').on('click', scrollToSection);
 
   function scrollToSection () {
 
@@ -72,7 +73,9 @@ $(() => {
     });
   });
 
-    $('.carousel').carousel();
+  $('.carousel').carousel();
+
+
 
 
 

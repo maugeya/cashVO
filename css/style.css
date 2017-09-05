@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5 {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 50px;
+  color: #304352;
 }
 
 /*nav stylings*/
@@ -57,9 +58,31 @@ nav {
   color: #9AA1B3;
 }
 
+i {
+  color: #9AA1B3;
+  animation: pulse 2s ease-in;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1.0);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+.microphone {
+  margin-top: 20vh;
+  color: #9AA1B3;
+}
+
 .nav-link {
   text-transform: uppercase;
-
   display: inline-block;
 }
 
@@ -102,6 +125,7 @@ section {
 }
 
 .overlay {
+  margin-top: 40px;
   position: absolute;
   text-align: center;
   left: 50%;
@@ -201,4 +225,33 @@ audio
 
 .audioTwo {
   margin-top: 50px;
+}
+
+.video {
+  margin: 60px auto;
+
+}
+
+video
+{
+  -webkit-transition:all 0.5s linear;
+  -moz-transition:all 0.5s linear;
+  -o-transition:all 0.5s linear;
+  transition:all 0.5s linear;
+  -moz-box-shadow: 2px 2px 4px 0px #006773;
+  -webkit-box-shadow:  2px 2px 4px 0px #006773;
+  box-shadow: 2px 2px 4px 0px #006773;
+  -moz-border-radius:7px 7px 7px 7px ;
+  -webkit-border-radius:7px 7px 7px 7px ;
+  border-radius:7px 7px 7px 7px ;
+}
+
+video:hover, video:focus, video:active
+{
+  -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
 }
