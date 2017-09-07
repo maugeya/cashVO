@@ -16,6 +16,12 @@ h1, h2, h3, h4, h5 {
   color: #304352;
 }
 
+hr {
+  width: auto;
+  color: #304352;
+
+}
+
 /*nav stylings*/
 nav {
   font-family: 'Raleway', sans-serif;
@@ -69,7 +75,7 @@ i {
     transform: scale(1.0);
   }
   50% {
-    transform: scale(1.1);
+    transform: scale(1.15);
   }
   100% {
     transform: scale(1.0);
@@ -108,6 +114,7 @@ i {
 /*general section stylings*/
 section {
   min-height: 100vh;
+  margin-bottom: 80px;
 }
 
 /*parallax */
@@ -153,6 +160,12 @@ section {
 #summaryTitle {
   color: #9AA1B3;
   font-family: 'Raleway', sans-serif;
+}
+
+/*About section*/
+
+#collage {
+  height: 500px;
 }
 
 /*testimonials section*/
