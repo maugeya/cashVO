@@ -1,7 +1,6 @@
-
 /*general stylings*/
 body {
-  background-color: #F6F1EB;
+  background-color: white;
 }
 
 p {
@@ -9,7 +8,11 @@ p {
   letter-spacing: 1.1px;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 50px;
@@ -19,7 +22,6 @@ h1, h2, h3, h4, h5 {
 hr {
   width: auto;
   color: #304352;
-
 }
 
 /*nav stylings*/
@@ -31,60 +33,58 @@ nav {
   color: #304352;
 }
 
-
-
 #homeLink {
   letter-spacing: 1.2px;
   font-weight: bolder;
-  color: #9AA1B3;
+  color: #9aa1b3;
 }
 #brandLink {
   letter-spacing: 1.2px;
   font-weight: bolder;
-  color: #9AA1B3;
+  color: #9aa1b3;
 }
 #aboutLink {
   letter-spacing: 1.2px;
   font-weight: bolder;
-  color: #9AA1B3;
+  color: #9aa1b3;
 }
 #listenLink {
   letter-spacing: 1.2px;
   font-weight: bolder;
-  color: #9AA1B3;
+  color: #9aa1b3;
 }
 #testLink {
   letter-spacing: 1.2px;
   font-weight: bolder;
-  color: #9AA1B3;
+  color: #9aa1b3;
 }
 #contactLink {
   letter-spacing: 1.2px;
   font-weight: bolder;
-  color: #9AA1B3;
+  color: #9aa1b3;
 }
 
 i {
-  color: #9AA1B3;
+  color: #9aa1b3;
   animation: pulse 2s ease-in;
   animation-iteration-count: infinite;
 }
 
 @keyframes pulse {
   0% {
-    transform: scale(1.0);
+    transform: scale(1);
   }
   50% {
     transform: scale(1.15);
   }
   100% {
-    transform: scale(1.0);
+    transform: scale(1);
   }
 }
 
 .microphone {
   margin-top: 20vh;
-  color: #9AA1B3;
+  color: #9aa1b3;
 }
 
 .nav-link {
@@ -102,14 +102,13 @@ i {
   width: 0;
   height: 2px;
   background: #304352;
-  transition: width .3s;
+  transition: width 0.3s;
 }
 
 .nav-link:hover::after {
   width: 100%;
-  transition: width .5s;
+  transition: width 0.5s;
 }
-
 
 /*general section stylings*/
 section {
@@ -120,7 +119,7 @@ section {
 /*parallax */
 
 .parallax {
-  background-image:url("../assets/images/mic2.jpg");
+  background-image: url('../assets/images/mic2.jpg');
   filter: brightness(0.7);
   min-height: 100vh;
   background-repeat: no-repeat;
@@ -142,7 +141,7 @@ section {
 
 .quotes {
   display: none;
-  color: #F6F1EB;
+  color: #f6f1eb;
   font-size: 20px;
 }
 
@@ -151,14 +150,14 @@ section {
 }
 
 #nameTitle {
-  color: #F6F1EB;
+  color: #f6f1eb;
   font-family: 'Raleway', sans-serif;
   font-size: 80px;
   font-weight: bold;
 }
 
 #summaryTitle {
-  color: #9AA1B3;
+  color: #9aa1b3;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -184,8 +183,6 @@ section {
   font-size: 17px;
 }
 
-
-
 .sectionTitle {
   font-size: 50px;
   margin-bottom: 50px;
@@ -198,7 +195,7 @@ section {
   min-height: 70vh;
 }
 .parallaxTwo {
-  background-image:url("../assets/images/rachel2.jpg");
+  background-image: url('../assets/images/rachel2.jpg');
   filter: brightness(0.7);
   min-height: 70vh;
   background-repeat: no-repeat;
@@ -211,29 +208,28 @@ section {
 
 /*listen section*/
 
-audio:hover, audio:focus, audio:active
-{
-  -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-  -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-  box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+audio:hover,
+audio:focus,
+audio:active {
+  -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   transform: scale(1.05);
 }
 
-
-audio
-{
-  -webkit-transition:all 0.5s linear;
-  -moz-transition:all 0.5s linear;
-  -o-transition:all 0.5s linear;
-  transition:all 0.5s linear;
+audio {
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
   -moz-box-shadow: 2px 2px 4px 0px #006773;
-  -webkit-box-shadow:  2px 2px 4px 0px #006773;
+  -webkit-box-shadow: 2px 2px 4px 0px #006773;
   box-shadow: 2px 2px 4px 0px #006773;
-  -moz-border-radius:7px 7px 7px 7px ;
-  -webkit-border-radius:7px 7px 7px 7px ;
-  border-radius:7px 7px 7px 7px ;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border-radius: 7px 7px 7px 7px;
+  border-radius: 7px 7px 7px 7px;
 }
 
 .audioTwo {
@@ -242,28 +238,27 @@ audio
 
 .video {
   margin: 60px auto;
-
 }
 
-video
-{
-  -webkit-transition:all 0.5s linear;
-  -moz-transition:all 0.5s linear;
-  -o-transition:all 0.5s linear;
-  transition:all 0.5s linear;
+video {
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
   -moz-box-shadow: 2px 2px 4px 0px #006773;
-  -webkit-box-shadow:  2px 2px 4px 0px #006773;
+  -webkit-box-shadow: 2px 2px 4px 0px #006773;
   box-shadow: 2px 2px 4px 0px #006773;
-  -moz-border-radius:7px 7px 7px 7px ;
-  -webkit-border-radius:7px 7px 7px 7px ;
-  border-radius:7px 7px 7px 7px ;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border-radius: 7px 7px 7px 7px;
+  border-radius: 7px 7px 7px 7px;
 }
 
-video:hover, video:focus, video:active
-{
-  -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-  -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-  box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+video:hover,
+video:focus,
+video:active {
+  -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   transform: scale(1.05);
