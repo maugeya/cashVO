@@ -126,6 +126,7 @@ section {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  border-bottom: 8px solid #37d4af;
   position: relative;
   text-align: center;
 }
@@ -204,6 +205,8 @@ section {
   background-attachment: fixed;
   position: relative;
   text-align: center;
+  border-top: 8px solid #37d4af;
+  border-bottom: 8px solid #37d4af;
 }
 
 /*listen section*/
