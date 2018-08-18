@@ -74,5 +74,5 @@ $(() => {
   $('.carousel').carousel();
   setInterval(function() {
     $('.carousel').carousel('next');
-  }, 300);
+  }, 500);
 });
