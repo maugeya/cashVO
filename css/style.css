@@ -115,7 +115,6 @@ i {
 /*general section stylings*/
 section {
   min-height: 100vh;
-  margin-bottom: 80px;
 }
 
 .container {
@@ -127,6 +126,7 @@ section {
   display: flex;
   align-content: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .right-audio {
@@ -143,6 +143,17 @@ section {
   padding-top: 40px;
 }
 
+.gradient-border {
+  height: 6px;
+  background-image: -webkit-linear-gradient(to right, #8360c3, #2ebf91);
+  background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(14, 173, 173) 33%,
+    rgb(0, 255, 255) 67%
+  );
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
 /*parallax */
 
 .parallax {
@@ -153,7 +164,6 @@ section {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  border-bottom: 8px solid #37d4af;
   position: relative;
   text-align: center;
 }
@@ -197,7 +207,6 @@ section {
 
 /*testimonials section*/
 section {
-  margin-top: 50px;
   text-align: center;
 }
 .testimonials {
@@ -221,7 +230,9 @@ section {
 
 #image {
   min-height: 70vh;
+  margin: 0;
 }
+
 .parallaxTwo {
   background-image: url('../assets/images/rachel2.jpg');
   filter: brightness(0.7);
@@ -232,8 +243,6 @@ section {
   background-attachment: fixed;
   position: relative;
   text-align: center;
-  border-top: 8px solid #37d4af;
-  border-bottom: 8px solid #37d4af;
 }
 
 /*listen section*/
