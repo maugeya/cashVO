@@ -123,6 +123,26 @@ section {
   padding-right: 25px;
 }
 
+.row {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.right-audio {
+  padding-left: 30px;
+}
+
+.about-copy {
+  padding: 0 50px;
+  margin-bottom: 30px;
+}
+
+.video-row,
+.peaugot-two {
+  padding-top: 40px;
+}
+
 /*parallax */
 
 .parallax {
