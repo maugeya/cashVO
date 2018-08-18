@@ -28,6 +28,8 @@ hr {
 nav {
   font-family: 'Raleway', sans-serif;
   color: #304352;
+  box-shadow: none;
+  background-color: transparent;
 }
 .navbar-brand {
   color: #304352;
