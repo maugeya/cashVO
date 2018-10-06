@@ -303,25 +303,39 @@ video:active {
   transform: scale(1.05);
 }
 
-div#slider {
-  overflow: hidden;
-}
-div#slider figure img {
-  width: 20%;
-  float: left;
-}
-div#slider figure {
+.carousel {
   position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 30s moveSlideShow infinite;
 }
 
-@keyframes moveSlideShow {
+.carousel-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  animation: slideshow 12s linear 0s infinite;
+}
+
+.carousel-item:nth-child(2) {
+  z-index: 2;
+  animation-delay: 4s;
+}
+
+.carousel-item:nth-child(3) {
+  z-index: 1;
+  animation-delay: 8s;
+}
+
+@keyframes slideshow {
+  25% {
+    opacity: 1;
+  }
+  33.33% {
+    opacity: 0;
+  }
+  91.66% {
+    opacity: 0;
+  }
   100% {
-    transform: translateX(-66.666%);
+    opacity: 1;
   }
 }
