@@ -1,6 +1,8 @@
 $(() => {
   console.log('js loaded');
 
+  $('#demo-carousel').carousel();
+
   $('.nav-link').on('click', scrollToSection);
   $('.navbar-brand').on('click', scrollToSection);
   $('.icon').on('click', scrollToSection);
@@ -70,9 +72,4 @@ $(() => {
       setImgHeight();
     });
   });
-
-  $('.carousel').carousel();
-  setInterval(function() {
-    $('.carousel').carousel('next');
-  }, 500);
 });
