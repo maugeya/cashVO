@@ -312,10 +312,16 @@ div#slider figure img {
 }
 div#slider figure {
   position: relative;
-  width: 50%;
+  width: 500%;
   margin: 0;
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 30s slidy infinite;
+  animation: 30s moveSlideShow infinite;
+}
+
+@keyframes moveSlideShow {
+  100% {
+    transform: translateX(-66.666%);
+  }
 }
