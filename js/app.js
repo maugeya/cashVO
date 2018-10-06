@@ -1,8 +1,6 @@
 $(() => {
   console.log('js loaded');
 
-  $('#demo-carousel').carousel();
-
   $('.nav-link').on('click', scrollToSection);
   $('.navbar-brand').on('click', scrollToSection);
   $('.icon').on('click', scrollToSection);
@@ -51,25 +49,4 @@ $(() => {
 
     showNextQuote();
   })();
-
-  $(function() {
-    var imgHeight = '';
-
-    // Define a resize function
-    function setImgHeight() {
-      imgHeight = $('.carousel .carousel-item.active img').height();
-      $('.carousel-img').height(imgHeight);
-    }
-
-    // Initialize the height
-    // setTimeout to wait until the image is loaded
-    setTimeout(function() {
-      setImgHeight();
-    }, 1000);
-
-    // Recalculate the height if the screen is resized
-    $(window).resize(function() {
-      setImgHeight();
-    });
-  });
 });
