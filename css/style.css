@@ -308,6 +308,8 @@ video:active {
 }
 
 .carousel-item {
+  width: 200px;
+  height: 200px;
   position: absolute;
   top: 0;
   left: 0;
@@ -323,6 +325,24 @@ video:active {
 .carousel-item:nth-child(3) {
   z-index: 1;
   animation-delay: 8s;
+}
+
+.carousel-one {
+  background-image: url('./assets/images/UBS.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-two {
+  background-image: url('./assets/images/stack-advertising.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-three {
+  background-image: url('./assets/images/maplestreet-creative.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @keyframes slideshow {
