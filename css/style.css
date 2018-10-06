@@ -302,3 +302,28 @@ video:active {
   -moz-transform: scale(1.05);
   transform: scale(1.05);
 }
+
+.carousel-item {
+  height: 300px;
+  width: 300px;
+}
+
+.carousel-one {
+  background-color: red;
+}
+
+.carousel-two {
+  background-color: orange;
+}
+
+.carousel-three {
+  background-color: yellow;
+}
+
+.carousel-four {
+  background-color: green;
+}
+
+.carousel-five {
+  background-color: purple;
+}
