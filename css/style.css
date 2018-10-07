@@ -247,36 +247,20 @@ section {
 
 /*listen section*/
 
-audio:hover,
-audio:focus,
-audio:active {
-  -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
-  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
-audio {
-  -webkit-transition: all 0.5s linear;
-  -moz-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-  -moz-box-shadow: 2px 2px 4px 0px #006773;
-  -webkit-box-shadow: 2px 2px 4px 0px #006773;
-  box-shadow: 2px 2px 4px 0px #006773;
-  -moz-border-radius: 7px 7px 7px 7px;
-  -webkit-border-radius: 7px 7px 7px 7px;
-  border-radius: 7px 7px 7px 7px;
-}
-
-.audioTwo {
-  margin-top: 50px;
+.audioFile:hover,
+.aduioFile:focus,
+.audioFile:active {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .video {
   margin: 60px auto;
+}
+
+.video-row {
+  flex-direction: column;
 }
 
 video {
@@ -327,5 +311,26 @@ video:active {
 }
 
 .fa-pause:before {
-  color: darken('#2ebf91', -50%);
+  color: #1b7c5c;
+}
+
+.media-section {
+  color: #9aa1b3;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 50px 0;
+}
+
+.listen-title {
+  margin-top: 0;
+  color: #9aa1b3;
 }

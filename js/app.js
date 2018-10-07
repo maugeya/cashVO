@@ -55,7 +55,6 @@ $(() => {
 
     for (let i = 0; i < btn.length; i++) {
       btn[i].addEventListener('click', function() {
-        console.log('clicked');
         const fileName = this.id;
         if ($(this).hasClass('fa-play')) {
           $(this).removeClass('fa-play');
