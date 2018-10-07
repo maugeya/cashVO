@@ -334,3 +334,25 @@ video:active {
   margin-top: 0;
   color: #9aa1b3;
 }
+
+.contact-row {
+  text-align: center;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact-item {
+  font-size: 24px;
+}
+
+.contact-label {
+  font-size: 28px;
+}
+
+.external-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
