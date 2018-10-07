@@ -303,27 +303,29 @@ video:active {
   transform: scale(1.05);
 }
 
-.carousel-item {
-  height: 300px;
-  width: 300px;
+.audioFile {
+  font-size: 50px;
+  cursor: pointer;
 }
 
-.carousel-one {
-  background-color: red;
+.audio-sample-container {
+  display: flex;
 }
 
-.carousel-two {
-  background-color: orange;
+.col {
+  flex: 1;
+  padding: 0 10px;
 }
 
-.carousel-three {
-  background-color: yellow;
+.audio-label {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 
-.carousel-four {
-  background-color: green;
+.fa-play:before {
+  color: #2ebf91;
 }
 
-.carousel-five {
-  background-color: purple;
+.fa-pause:before {
+  color: darken('#2ebf91', -50%);
 }

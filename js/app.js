@@ -49,4 +49,25 @@ $(() => {
 
     showNextQuote();
   })();
+  (function() {
+    var btn = document.getElementsByClassName('audioFile');
+    var audio = document.querySelector('audio');
+
+    for (let i = 0; i < btn.length; i++) {
+      btn[i].addEventListener('click', function() {
+        console.log('clicked');
+        const fileName = this.id;
+        if ($(this).hasClass('fa-play')) {
+          $(this).removeClass('fa-play');
+          $(this).addClass('fa-pause');
+          audio.src = `https://s3-eu-west-1.amazonaws.com/cash-vo/${fileName}.mp3`;
+          audio.play();
+        } else {
+          $(this).removeClass('fa-pause');
+          $(this).addClass('fa-play');
+          audio.pause();
+        }
+      });
+    }
+  })();
 });
