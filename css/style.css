@@ -384,3 +384,7 @@ video:active {
 .contact-email {
   padding: 20px 0;
 }
+
+#contact-form {
+  display: flex;
+}
