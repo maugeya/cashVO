@@ -1,6 +1,5 @@
 $(() => {
   console.log('js loaded');
-
   $('.nav-link').on('click', scrollToSection);
   $('.navbar-brand').on('click', scrollToSection);
   $('.icon').on('click', scrollToSection);

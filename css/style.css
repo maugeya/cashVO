@@ -126,7 +126,7 @@ section {
   display: flex;
   align-content: center;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .right-audio {
@@ -135,7 +135,7 @@ section {
 
 .about-copy {
   padding: 0 50px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .video-row,
